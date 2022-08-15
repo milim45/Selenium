@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <test thread-count="5" verbose="0" name="TestNG(failed)">
+    <classes>
+      <class name="tests.AccountFormTest">
+        <methods>
+          <include name="tc_09_wrongzip"/>
+          <include name="tc_06_noadress"/>
+          <include name="tc_08_nozip"/>
+          <include name="tc_11_good"/>
+          <include name="tc_02_nophone"/>
+          <include name="tc_10_nostate"/>
+          <include name="tc_05_nopass"/>
+          <include name="tc_03_nofirstname"/>
+          <include name="tc_07_nocity"/>
+          <include name="tc_01_null"/>
+          <include name="tearDown"/>
+          <include name="tc_04_nolasttname"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.AccountFormTest -->
+      <class name="tests.MyAccountTest">
+        <methods>
+          <include name="TC_01_null"/>
+          <include name="TC_05_slipsText"/>
+          <include name="TC_02_orders"/>
+          <include name="TC_04_slips"/>
+          <include name="tearDown"/>
+          <include name="TC_03_adresses"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.MyAccountTest -->
+      <class name="tests.NewAccountTestNG">
+        <methods>
+          <include name="TC_04_create_existing"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.NewAccountTestNG -->
+    </classes>
+  </test> <!-- TestNG(failed) -->
+</suite> <!-- Failed suite [Suite] -->

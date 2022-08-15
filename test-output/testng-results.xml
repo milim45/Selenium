@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="11" passed="11">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="56013" started-at="2022-08-15T00:26:47 IDT" finished-at="2022-08-15T00:27:43 IDT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="56013" started-at="2022-08-15T00:26:47 IDT" finished-at="2022-08-15T00:27:43 IDT">
+      <class name="tests.AccountFromTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.AccountFromTest@e1f601]" name="setup" is-config="true" duration-ms="10839" started-at="2022-08-15T00:26:47 IDT" finished-at="2022-08-15T00:26:58 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="tc_01_null()[pri:0, instance:tests.AccountFromTest@e1f601]" name="tc_01_null" duration-ms="16637" started-at="2022-08-15T00:26:58 IDT" description="an empty form" finished-at="2022-08-15T00:27:14 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_01_null -->
+        <test-method status="PASS" signature="tc_02_nophone()[pri:0, instance:tests.AccountFromTest@e1f601]" name="tc_02_nophone" duration-ms="2815" started-at="2022-08-15T00:27:14 IDT" description="missing  phone" finished-at="2022-08-15T00:27:17 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_02_nophone -->
+        <test-method status="PASS" signature="tc_03_nofirstname()[pri:0, instance:tests.AccountFromTest@e1f601]" name="tc_03_nofirstname" duration-ms="2007" started-at="2022-08-15T00:27:17 IDT" description="missing  first name" finished-at="2022-08-15T00:27:19 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_03_nofirstname -->
+        <test-method status="PASS" signature="tc_04_nolasttname()[pri:0, instance:tests.AccountFromTest@e1f601]" name="tc_04_nolasttname" duration-ms="3299" started-at="2022-08-15T00:27:19 IDT" description="missing  last name" finished-at="2022-08-15T00:27:22 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_04_nolasttname -->
+        <test-method status="PASS" signature="tc_05_nopass()[pri:0, instance:tests.AccountFromTest@e1f601]" name="tc_05_nopass" duration-ms="2320" started-at="2022-08-15T00:27:22 IDT" description="missing   password" finished-at="2022-08-15T00:27:25 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_05_nopass -->
+        <test-method status="PASS" signature="tc_06_noadress()[pri:0, instance:tests.AccountFromTest@e1f601]" name="tc_06_noadress" duration-ms="3008" started-at="2022-08-15T00:27:25 IDT" description="missing   address" finished-at="2022-08-15T00:27:28 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_06_noadress -->
+        <test-method status="PASS" signature="tc_07_nocity()[pri:0, instance:tests.AccountFromTest@e1f601]" name="tc_07_nocity" duration-ms="4296" started-at="2022-08-15T00:27:28 IDT" description="missing   city" finished-at="2022-08-15T00:27:32 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_07_nocity -->
+        <test-method status="PASS" signature="tc_08_nozip()[pri:0, instance:tests.AccountFromTest@e1f601]" name="tc_08_nozip" duration-ms="2896" started-at="2022-08-15T00:27:32 IDT" description="missing zip" finished-at="2022-08-15T00:27:35 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_08_nozip -->
+        <test-method status="PASS" signature="tc_09_wrongzip()[pri:0, instance:tests.AccountFromTest@e1f601]" name="tc_09_wrongzip" duration-ms="2345" started-at="2022-08-15T00:27:35 IDT" description="wrong  zip" finished-at="2022-08-15T00:27:37 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_09_wrongzip -->
+        <test-method status="PASS" signature="tc_10_nostate()[pri:0, instance:tests.AccountFromTest@e1f601]" name="tc_10_nostate" duration-ms="2087" started-at="2022-08-15T00:27:37 IDT" description="wrong  state " finished-at="2022-08-15T00:27:39 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_10_nostate -->
+        <test-method status="PASS" signature="tc_11_good()[pri:0, instance:tests.AccountFromTest@e1f601]" name="tc_11_good" duration-ms="2726" started-at="2022-08-15T00:27:39 IDT" description="success" finished-at="2022-08-15T00:27:42 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_11_good -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.AccountFromTest@e1f601]" name="tearDown" is-config="true" duration-ms="616" started-at="2022-08-15T00:27:42 IDT" finished-at="2022-08-15T00:27:43 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AccountFromTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
